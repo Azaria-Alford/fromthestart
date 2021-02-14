@@ -3,8 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <title>HTML 1</title>
+	<style>
+		.leftcol{background-color: coral}
+		#listNames{color:darkorange}
+		
+	</style>
 </head>
-
 <body>
 	<h1> Moths</h1>
 	<hr>
@@ -12,11 +16,55 @@
 	<img src="images/moths1.jpg" alt="Moth on a leaf" width="200">
 			<h3> Yes, there are multiple Species of Moths!</h3>
 	<p>There is approximately <b title="160,000 species of moths." style="color: red">160,000</b> species of moths.</p>
-	
+		<h2 id="listNames"> Types of Moths</h2>
+		<ul>
+			<li>Hummingbird Hawk-Moth</li>
+			<li>Gypsy Moth</li>
+			<li>The Green Page Moth</li>
+			<li>Atlas Moth</li>
+			<li>Luna Moth</li>
+		</ul>
 </body>
 		<h2> Do Moths migrate?</h2>
 	<img src="images/moths2.jpg" alt="Pink moth" width="200">
 	
-			<h3> Yes, Moth do migrate</h3>
-	<img src="images/se-eb-moth-week-1024x768.jpg" alt="red moth">
+			<h3>Yes, Moths do migrate</h3>
+	
+	<p>Moths do migrate but not all of them, only certain species like for example <i title="The Hummingbird Hawk Moths and The Green Page Moths" style="color:orange;font-size: 20px">The Hummingbird Hawk Moths</i> and <i title= "The Green Page Moths" style="color: forestgreen; font-size: 20px"> The Green Page Moths.</i></p>
+	
+	<img src="images/se-eb-moth-week-1024x768.jpg" alt="red moth" width="200">
+		<br>
+	
+	<h4><a href="https://butterfly-conservation.org/moths/humming-bird-hawk-moth">The Hummingbird Hawk Moth</a></h4>
+	
+	<img src="images/Hummingbird-Hawk-moths.jpg" alt="Hummingbird Hawk-Moth">
+	<p>The Hummingbird Moth can be found year round in Southern Europe and Asia but it's migration range can extends into Northern African in the Winter. During the summer, it pushes northward into Europe and Russia.</p>
+		<h4> <a href="GreenPageMoth.html">Green Page Moth (Urania Leilus)</a></h4>
+	<img src="images/green page moth.jpg" alt="Green Page Moth">
+	<br>
+	<table style="width: 60%; border: thin solid">
+		<tr align="left">
+		<th>Types of Moths</th>
+		<th>Do they migrate</th>
+		<th>Average Lifespan</th>	
+		</tr>
+		<tr>
+			<td class="LeftCol">Luna Moths</td>
+			<td>No</td>
+			<td>One Week </td>
+		</tr>
+		<tr>
+			<td class="LeftCol">Altas Moths</td>
+			<td>No</td>
+			<td>Two Weeks</td>
+		</tr>
+		<tr>
+			<td class="LeftCol">Bogong Moths</td>
+			<td>Yes</td>
+			<td>3-11 weeks</td>
+		</tr>
+	</table>
+	<script>
+	document.getElementById("mothName").innerHTML="Gypsy Moth";
+	</script>
 </html>
